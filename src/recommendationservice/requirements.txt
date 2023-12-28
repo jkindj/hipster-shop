@@ -10,13 +10,13 @@ click==7.1.2
     # via flask
 environs==9.3.0
     # via opentelemetry-launcher
-flask==1.1.2
+flask==2.2.5
     # via opentelemetry-instrumentation-flask
 googleapis-common-protos==1.52.0
     # via opentelemetry-exporter-otlp
 grpcio-health-checking==1.13.0
     # via -r requirements.in
-grpcio==1.35.0
+grpcio==1.53.2
     # via
     #   -r requirements.in
     #   grpcio-health-checking
@@ -24,7 +24,7 @@ grpcio==1.35.0
     #   opentelemetry-instrumentation-grpc
 itsdangerous==1.1.0
     # via flask
-jinja2==2.11.2
+jinja2==2.11.3
     # via
     #   flask
     #   opentelemetry-instrumentation-jinja2
@@ -62,7 +62,7 @@ opentelemetry-instrumentation-system-metrics==0.17b0
     # via opentelemetry-launcher
 opentelemetry-instrumentation-wsgi==0.17b0
     # via opentelemetry-instrumentation-flask
-opentelemetry-instrumentation==0.17b0
+opentelemetry-instrumentation==0.41b0
     # via
     #   opentelemetry-instrumentation-dbapi
     #   opentelemetry-instrumentation-flask
@@ -82,7 +82,7 @@ opentelemetry-sdk==0.17b0
     #   opentelemetry-instrumentation-grpc
     #   opentelemetry-instrumentation-system-metrics
     #   opentelemetry-launcher
-protobuf==3.14.0
+protobuf==3.18.3
     # via
     #   googleapis-common-protos
     #   grpcio-health-checking
@@ -97,7 +97,7 @@ six==1.12.0
     # via
     #   grpcio
     #   protobuf
-werkzeug==1.0.1
+werkzeug==2.3.8
     # via flask
 wrapt==1.12.1
     # via
