@@ -7,7 +7,7 @@ COPY . .
 RUN go get -d -v
 RUN go build -o /productcatalogservice .
 
-FROM alpine AS release
+FROM alpine:3.19.1 AS release
 RUN apk add --no-cache ca-certificates
 RUN GRPC_HEALTH_PROBE_VERSION=v0.3.6 && \
     wget -qO/bin/grpc_health_probe https://github.com/grpc-ecosystem/grpc-health-probe/releases/download/${GRPC_HEALTH_PROBE_VERSION}/grpc_health_probe-linux-amd64 && \
