@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.13.0a4-slim
 RUN apt-get update -qqy && \
 	apt-get -qqy install wget g++ git && \
 	rm -rf /var/lib/apt/lists/*
