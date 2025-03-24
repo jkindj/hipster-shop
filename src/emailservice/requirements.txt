@@ -16,7 +16,7 @@ googleapis-common-protos==1.52.0
     # via opentelemetry-exporter-otlp
 grpcio-health-checking==1.13.0
     # via -r requirements.in
-grpcio==1.35.0
+grpcio==1.58.3
     # via
     #   -r requirements.in
     #   grpcio-health-checking
