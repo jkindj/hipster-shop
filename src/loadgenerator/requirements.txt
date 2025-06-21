@@ -59,7 +59,7 @@ six==1.16.0
     #   geventhttpclient
 typing-extensions==4.0.1
     # via locust
-urllib3==1.26.7
+urllib3==2.5.0
     # via requests
 werkzeug==2.0.2
     # via
