@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-brotli==1.0.9
+brotli==1.2.0
     # via geventhttpclient
 certifi==2021.10.8
     # via
