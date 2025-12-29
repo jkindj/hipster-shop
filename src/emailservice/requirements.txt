@@ -30,7 +30,7 @@ jinja2==2.11.2
     #   opentelemetry-instrumentation-jinja2
 markupsafe==1.1.0
     # via jinja2
-marshmallow==3.10.0
+marshmallow==3.26.2
     # via environs
 opentelemetry-api==0.17b0
     # via
