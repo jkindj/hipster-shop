@@ -82,7 +82,7 @@ opentelemetry-sdk==0.17b0
     #   opentelemetry-instrumentation-grpc
     #   opentelemetry-instrumentation-system-metrics
     #   opentelemetry-launcher
-protobuf==3.14.0
+protobuf==5.29.6
     # via
     #   googleapis-common-protos
     #   grpcio-health-checking
